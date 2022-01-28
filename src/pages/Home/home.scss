@@ -1,0 +1,133 @@
+@import '../../styles/sassVariable';
+
+
+
+.home-specify{
+
+    margin-top: 1rem;
+
+    .home-right-specify{
+        background-color: $homeMainBackground;
+        border-radius: .7rem;
+        -webkit-border-radius: .7rem;
+        -moz-border-radius: .7rem;
+        -ms-border-radius: .7rem;
+        -o-border-radius: .7rem;
+        padding: 1rem;
+        margin-bottom: 1rem;
+
+        .home-specify-title{
+            @include flex(flex,space-between,center);
+            padding: .5rem 0;
+
+            .home-specify-title-right{ 
+                @include flex(flex,flex-start,center);
+                flex: 1;
+                border-bottom: 2px solid red;
+                p{
+                    font-size: 1rem;
+                    letter-spacing: -1px !important;
+                    color: #000;
+                }
+                max-width: 50vw;
+            }
+            .home-specify-title-center {
+                flex: 1;
+                @include flex(flex,center,center);
+                border-bottom: 2px solid $borderColor;
+                padding : .67rem 0 !important;
+
+                p{
+                    font-size: .8rem;
+                    color: $color1;
+                }
+            }
+            .home-specify-title-left{
+                @include flex(flex,flex-end,center);
+                flex: 1;
+                cursor: pointer;
+                border-bottom: 2px solid $borderColor;
+                padding: 0.2rem 0 !important;
+
+                p{
+                    font-size: .9rem !important;
+                }
+            }
+        }
+        .home-right-specification-main{
+            // padding: 1rem;
+        }
+    }
+
+    .home-specify-img{
+        width: 96%;
+        margin: 1rem auto 0;
+        img{
+            border-radius: 1.2rem;
+            -webkit-border-radius: 1.2rem;
+            -moz-border-radius: 1.2rem;
+            -ms-border-radius: 1.2rem;
+            -o-border-radius: 1.2rem;
+        }
+    }
+    .home-specify-features-content{
+        margin-top: .5rem;
+        padding: 0 .5rem;
+
+        .home-specify-features{
+            @include flex(flex,space-between,center);
+            padding: .4rem .6rem;
+    
+            p{
+                font-size: .9rem;
+            }
+        }
+        .home-specify-features:nth-child(odd){
+            background-color: $borderColor;
+        }
+        .home-add-to-cart{
+            width: 100% !important;
+            padding: .8rem !important;
+            margin-top: 1.5rem;
+        }
+    }
+
+    // left side 
+
+    .specification-left-side{
+        background-color: $homeMainBackground;
+        border-radius: .7rem;
+        -webkit-border-radius: .7rem;
+        -moz-border-radius: .7rem;
+        -ms-border-radius: .7rem;
+        -o-border-radius: .7rem;
+        margin-right: .5rem;
+        margin-bottom: 1rem;
+
+        .home-specify-left-side-title{
+            @include flex(flex,space-between,center);
+
+            .home-specify-left-side-right-title{
+                @include flex( flex , flex-start , center );
+                flex: 1;
+                border-bottom: 2px solid red;
+            }
+            .home-specify-left-side-left-title{
+                flex: 1;
+                text-align: left;
+                border-bottom: 2px solid $borderColor;
+                padding: .2rem 0;
+
+            }
+        }
+        .accordion-details{
+            background: $mainBackground;
+            position: absolute;
+            top: 49px;
+            left: 0;
+            z-index: 1000;
+        }
+    }
+}
+
+

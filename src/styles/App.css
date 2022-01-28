@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'vazir';
+  src: url(../fonts/Vazir.ttf);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  font-family: "vazir" !important;
+}
+
+.feed {
+  background-color: #ededed;
+  padding: 0.5rem 1rem;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+span, p, input {
+  font-family: "vazir" !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+img {
+  width: 100%;
+}
+/*# sourceMappingURL=App.css.map */

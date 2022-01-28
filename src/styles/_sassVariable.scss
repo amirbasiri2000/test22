@@ -1,0 +1,13 @@
+$mainBackground: #ededed;
+$borderColor: #ededed;
+$fontFamily: 'vazir' !important;
+$homeMainBackground: #fff;
+$color1: #838383;
+
+
+
+@mixin flex($display,$justify,$align){
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+}

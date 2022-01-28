@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0ed20896.css",
+    "main.js": "/static/js/main.d5132e38.js",
+    "static/media/Vazir.ttf": "/static/media/Vazir.8698ab7164cb8aa9f35b.ttf",
+    "static/media/logo.png": "/static/media/logo.da45ea92acdee76c9a64.png",
+    "static/media/beams.jpg": "/static/media/beams.d91ca72804f0baccb8ff.jpg",
+    "index.html": "/index.html",
+    "main.0ed20896.css.map": "/static/css/main.0ed20896.css.map",
+    "main.d5132e38.js.map": "/static/js/main.d5132e38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ed20896.css",
+    "static/js/main.d5132e38.js"
+  ]
+}
