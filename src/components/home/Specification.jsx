@@ -2,7 +2,7 @@ import { Button, Divider, Grid, IconButton, Typography } from '@mui/material';
 import HomeSpedifyImage from '../../assets/images/home/beams.jpg';
 import { HomeTitle } from './HomeTitle';
 import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
-import { SpecificationLeftSide } from './leftSideSpecify/SpecificationLeftSide';
+import { SpecificationLeftSide } from './leftSideSpecify';
 
 
 
@@ -51,16 +51,16 @@ export const HomeSpecification = () =>{
 
     return(
         <Grid container>
-            <Grid container item md={8} xs={12} className="home-right-specify">
+            <Grid sx={{alignItems:'center'}} container item lg={8} md={12} xs={12} className="home-right-specify">
                 <Grid item xs={12}>
                     <HomeTitle/>
                 </Grid>
-                <Grid item xs={12} md={6} className="home-right-specification-main">
+                <Grid item lg={6} md={6} xs={12} className="home-right-specification-main">
                     <div className="home-specify-img">
                         <img src={HomeSpedifyImage} alt="specification" />
                     </div>
                 </Grid>
-                <Grid item xs={12} md={6} sx={{marginBottom: '1rem !important'}}>
+                <Grid item lg={6} md={6} xs={12} sx={{marginBottom: '1rem !important'}}>
                     <div className="home-specify-features-content">
                         {
                             data.map((item,index) =>{
@@ -80,7 +80,7 @@ export const HomeSpecification = () =>{
                     </div>
                 </Grid>
             </Grid>
-            <Grid item md={4} xs={12} >
+            <Grid item lg={4} md={12} xs={12} >
                 <SpecificationLeftSide />
             </Grid>
         </Grid>

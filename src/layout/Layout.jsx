@@ -1,6 +1,7 @@
 import { Container, CssBaseline } from "@mui/material"
 import { SearchBar, TopNavBar } from "../components"
 import { RoutesConfig } from "../Router/Router"
+import { Footer } from '../components/footer/Footer';
 
 
 export const LayoutPage = () =>{
@@ -15,7 +16,9 @@ export const LayoutPage = () =>{
             <div className="feed">
                     <RoutesConfig />
             </div>
-            <div className="footer"></div>
+            <div>
+                <Footer/>
+            </div>
         </div>
     )
 }

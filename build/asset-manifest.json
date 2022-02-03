@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.0ed20896.css",
-    "main.js": "/static/js/main.d5132e38.js",
+    "main.css": "/static/css/main.eb59d41f.css",
+    "main.js": "/static/js/main.f3904e4c.js",
+    "static/media/test2.jpg": "/static/media/test2.68c851695bf67833fe81.jpg",
+    "static/media/music5.mp3": "/static/media/music5.5e2ca281f012b5bbba10.mp3",
+    "static/media/music1.mp3": "/static/media/music1.fc26791fc6ed3b6c5f3d.mp3",
+    "static/media/music4.mp3": "/static/media/music4.e7d5fe14b00c8498d657.mp3",
+    "static/media/music2.mp3": "/static/media/music2.66f8755e07d10d299413.mp3",
+    "static/media/music3.mp3": "/static/media/music3.3a37ffb09fabfc61f631.mp3",
+    "static/media/test4.jpg": "/static/media/test4.d22b068b642ae51125be.jpg",
     "static/media/Vazir.ttf": "/static/media/Vazir.8698ab7164cb8aa9f35b.ttf",
+    "static/media/music6.mp3": "/static/media/music6.7180b5ab96d93c0f38fe.mp3",
     "static/media/logo.png": "/static/media/logo.da45ea92acdee76c9a64.png",
+    "static/media/contracting1.png": "/static/media/contracting1.b2306346d23a27b1b843.png",
     "static/media/beams.jpg": "/static/media/beams.d91ca72804f0baccb8ff.jpg",
+    "static/media/contracting6.png": "/static/media/contracting6.b6d5e9902b80864b9390.png",
+    "static/media/test1.jpg": "/static/media/test1.0e866d6d77ad8ca47a34.jpg",
     "index.html": "/index.html",
-    "main.0ed20896.css.map": "/static/css/main.0ed20896.css.map",
-    "main.d5132e38.js.map": "/static/js/main.d5132e38.js.map"
+    "main.eb59d41f.css.map": "/static/css/main.eb59d41f.css.map",
+    "main.f3904e4c.js.map": "/static/js/main.f3904e4c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ed20896.css",
-    "static/js/main.d5132e38.js"
+    "static/css/main.eb59d41f.css",
+    "static/js/main.f3904e4c.js"
   ]
 }
